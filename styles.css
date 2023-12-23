@@ -1,0 +1,103 @@
+.fwh-slide {
+  background-image: url("images/cook.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center center;
+  box-sizing: border-box;
+  
+}
+
+.fwh-slide--bg-white {
+background: white;
+font-family: myThirdFont;
+height: 200px;
+margin-top: 100px;
+background-color:white
+}
+
+.salmon, .burger, .cake {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center center;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.salmon {
+  background-image: url("images/salmon.jpg");
+}
+
+.burger {
+  background-image: url("images/burger.jpg");
+}
+
+.cake {
+  background-image: url("images/cake.jpg");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:white
+}
+
+div {
+  padding: 40px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: black;
+  font-family: myFirstFont;
+  text-align: center;
+  margin: 0;
+  top: 1000px;
+}
+
+h2 {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  font-family: mySecondFont;
+}
+
+h1, h2 {
+  margin-bottom: -15px; 
+}
+
+.hi{
+  font-family: myThirdFont;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 20px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(font/Poppins-Light.ttf)
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(font/GreatRebellion-3znKL.ttf);
+}
+  
+
+
