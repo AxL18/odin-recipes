@@ -79,6 +79,7 @@ a {
 .footer {
   background-color: rgb(16, 15, 17);
   height: 200px;
+  position: relative;
 }
 
 .footer-text {
@@ -86,6 +87,7 @@ a {
   font-family: myFirstFont;
   font-size: 20px;
   margin-left: 35px;
+  position: relative;
 }
 
 .footer-logo {
@@ -100,14 +102,22 @@ a {
   font-family: mySecondFont;
   font-size: 15px;
   text-align: center;
+  position: relative;
 }
 
-.copyright {
-  position: relative; 
-  bottom: 35px;
-	left: 20px; 
-  margin-left: 455px;
-  
+.social-media {
+  position: relative;
+  float: right;
+  bottom: 35%;
+  right: 4%;
+}
+
+.tiktok {
+  margin-right: 0.5%;
+}
+
+.instagram {
+  margin-right: 0.5%;
 }
 
 body {
