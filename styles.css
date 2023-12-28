@@ -1,11 +1,17 @@
 .hero {
   background-image: url("images/cook.jpg");
-  height: 100vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 	background-position: center center;
   box-sizing: border-box;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+}
+
+.sub-hero-section {
+  font-family: myFirstFont;
+  font-size: 80px;
+  margin-bottom: 3%;
 }
 
 .salmon, .burger, .cake {
@@ -15,8 +21,8 @@
 	background-position: center center;
   box-sizing: border-box;
   margin-bottom: 15px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -35,19 +41,15 @@ a {
   transition: .5s ease;
   background-color: #132126;
   box-sizing: border-box;
+  overflow: hidden; /*fixed the issue of the overlay being clickable in the margins*/
 } /* styling the overlay of the images (part of the hover effect)*/
 
-.salmon:hover .overlay {
-  opacity: 0.8;
-}/* adding the overlay to each recipe*/
-
+.salmon:hover .overlay,
+.burger:hover .overlay,
 .cake:hover .overlay {
   opacity: 0.8;
 }/* adding the overlay to each recipe*/
 
-.burger:hover .overlay {
-  opacity: 0.8;
-}/* adding the overlay to each recipe*/
 
 .text {
   color: white;
@@ -57,6 +59,25 @@ a {
   text-align: center;
   margin-top: 40px;
 }/* text overlay styling */
+
+.clock-container {
+  display: flex;
+  justify-content: center; 
+  margin-left: -200px;
+  margin-top: -40px;
+}
+
+.prep-time {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.clock {
+  margin-left: -260px;
+}
 
 .salmon {
   background-image: url("images/salmon.jpg");
@@ -99,7 +120,7 @@ a {
 
 .author {
   color: white;
-  font-family: mySecondFont;
+  font-family: myFirstFont;
   font-size: 15px;
   text-align: center;
   position: relative;
@@ -110,6 +131,7 @@ a {
   float: right;
   bottom: 35%;
   right: 4%;
+  width: 20px;
 }
 
 .tiktok {
