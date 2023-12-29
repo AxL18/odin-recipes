@@ -1,3 +1,55 @@
+.main button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav {
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #333333;
+  transform: translateX(350px); /* hides the nav */
+  transition: transform 0.5s;
+  z-index: 2;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-close { /* this is for the close icon */
+  background: none; /*removes the backgroud colour */
+  border: none; /*removes the border */
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* places the icon in the right of the menu */
+  padding: 15px 25px;
+  color: white;
+  cursor: pointer; /* gives the cursor the shape of a hand on hover */
+}
+
+.nav-open .nav { /* this is when the menu is open */
+  transform: translateX(0);
+}
+
+.nav-link {
+  display: flex; /* allows items to stack */
+  align-items: center;
+  padding: 15px 5px;
+  color: white;
+  font-family: myFirstFont;
+  font-size: 20px;
+}
+
+.nav-link:hover,
+.nav-close:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+
 .hero {
   background-image: url("images/cook.jpg");
   min-height: 100vh;
@@ -168,7 +220,8 @@ a {
 body {
   margin: 0;
   padding: 0;
-  background-color:white
+  background-color:white;
+  overflow-x: hidden;
 }
 
 div {
