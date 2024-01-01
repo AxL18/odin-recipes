@@ -1,3 +1,9 @@
+.nav-links-container {
+  padding: 0;
+  margin-top: 50px;
+}
+
+
 .main button {
   position: absolute;
   top: 20px;
@@ -38,7 +44,7 @@
 .nav-link {
   display: flex; /* allows items to stack */
   align-items: center;
-  padding: 15px 5px;
+  padding: 15px;
   color: white;
   font-family: myFirstFont;
   font-size: 20px;
@@ -49,6 +55,9 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
+.nav-text {
+  margin-left: 50px;
+}
 
 .hero {
   background-image: url("images/cook.jpg");
@@ -130,6 +139,7 @@ a {
 .clock {
   margin-left: -260px;
 }
+
 
 .hat-container {
   display: flex;
