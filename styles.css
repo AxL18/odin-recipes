@@ -301,13 +301,32 @@ h1, h2 {
 @media screen and (max-width: 768px) {
   .hero h1 {
     font-size: 45px;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .hero h2 {
     font-size: 30px;
   }
   .logo {
-    width: 50px;
+    width: 40px;
+  }
+  .sub-hero-section {
+    font-size: 60px;
+  }
+  .footer-logo {
+    margin-left: 10px;
+  }
+  .footer-text {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .social-media, .social-media instagram,
+  .social-media tiktok {
+    width: 15px;
+    margin-top: 5px;
+  }
+  .social-media {
+    margin-right: 5px;
   }
   
 }
