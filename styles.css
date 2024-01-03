@@ -160,7 +160,6 @@ a {
   margin-left: -260px;
 }
 
-
 .hat-container {
   display: flex;
   justify-content: center; 
@@ -185,14 +184,17 @@ a {
 }
 
 .salmon {
+  position: relative;
   background-image: url("images/salmon.jpg");
 }
 
 .burger {
+  position: relative;
   background-image: url("images/burger.jpg");
 }
 
 .cake {
+  position: relative;
   background-image: url("images/cake.jpg");
 }
 
@@ -338,5 +340,48 @@ h1, h2 {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+  .overlay {
+    display: none; /* it disables the hover effect on the recipe images */
+  }
+  .overlay-rectangle {
+    background-color: black;
+    opacity: 0.8;
+    height: 200px;
+    width: 100%; /* Set the width to 100% to cover the entire width of the .salmon section */
+    bottom: 0; /* Align the bottom of the overlay-rectangle to the bottom of the .salmon section */
+    position: absolute; /* Position the overlay-rectangle absolutely within the .salmon section */
+    box-sizing: border-box;
+  }
+  .text {
+    font-size: 30px;
+    position: relative;
+    top: -80px;
+    letter-spacing: normal;
+  }
+  .clock-container {
+    position: relative;
+    top: -110px;
+  }
+  .prep-time {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  .clock {
+    width: 30px;
+    margin-left: -255px;
+  }
+  .hat-container {
+    position: relative;
+    top: -120px;
+  }
+
+  .difficulty {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .hat {
+    width: 30px;
+    margin-left: -270px;
+  }
 }
