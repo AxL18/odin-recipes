@@ -346,7 +346,7 @@ h1, h2 {
   .overlay-rectangle {
     background-color: black;
     opacity: 0.8;
-    height: 200px;
+    height: 250px;
     width: 100%; /* Set the width to 100% to cover the entire width of the .salmon section */
     bottom: 0; /* Align the bottom of the overlay-rectangle to the bottom of the .salmon section */
     position: absolute; /* Position the overlay-rectangle absolutely within the .salmon section */
@@ -355,11 +355,8 @@ h1, h2 {
   .text {
     font-size: 35px;
     position: relative;
-    top: -80px;
+    top: -70px;
     letter-spacing: normal;
-    min-width: 20px;
-    white-space: nowrap;
-    
   }
   .clock-container {
     position: relative;
