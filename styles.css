@@ -358,11 +358,12 @@ h1, h2 {
     top: -70px;
     letter-spacing: normal;
     white-space: nowrap;
-    margin-left: -25px;
+    margin-left: -30px;
   }
   .clock-container {
     position: relative;
     top: -100px;
+    justify-content: center; 
   }
   .prep-time {
     font-size: 18px;
@@ -375,6 +376,7 @@ h1, h2 {
   .hat-container {
     position: relative;
     top: -110px;
+    justify-content: center; 
   }
 
   .difficulty {
@@ -385,5 +387,17 @@ h1, h2 {
   .hat {
     width: 30px;
     margin-left: -270px;
+  }
+  .text-burger {
+    font-size: 35px;
+    position: relative;
+    top: -70px;
+    letter-spacing: normal;
+    white-space: nowrap;
+    margin-left: -45px;
+    color: white;
+    font-family: myThirdFont;
+    margin-top: 40px;
+    text-align: center;
   }
 }
