@@ -104,6 +104,7 @@
   margin-bottom: 15px;
   margin-left: 80px;
   margin-right: 80px;
+  overflow: hidden;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -358,7 +359,7 @@ h1, h2 {
     top: -70px;
     letter-spacing: normal;
     white-space: nowrap;
-    margin-left: -30px;
+    margin-left: -35px;
   }
   .clock-container {
     display: flex;
@@ -401,5 +402,8 @@ h1, h2 {
     font-family: myThirdFont;
     margin-top: 40px;
     text-align: center;
+  }
+  .cake .overlay-rectangle .text {
+   margin-left: -60px;
   }
 }
