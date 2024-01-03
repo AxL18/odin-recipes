@@ -361,6 +361,7 @@ h1, h2 {
     margin-left: -30px;
   }
   .clock-container {
+    display: flex;
     position: relative;
     top: -100px;
     justify-content: center; 
@@ -374,6 +375,7 @@ h1, h2 {
     margin-left: -255px;
   }
   .hat-container {
+    display: flex;
     position: relative;
     top: -110px;
     justify-content: center; 
