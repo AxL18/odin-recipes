@@ -297,6 +297,17 @@ h1, h2 {
   font-family: myThirdFont;
   src: url(font/GreatRebellion-3znKL.ttf);
 }
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+  .logo {
+    width: 50px;
+  }
   
-
-
+}
