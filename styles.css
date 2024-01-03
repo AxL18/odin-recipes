@@ -357,6 +357,9 @@ h1, h2 {
     position: relative;
     top: -80px;
     letter-spacing: normal;
+    min-width: 20px;
+    white-space: nowrap;
+    
   }
   .clock-container {
     position: relative;
