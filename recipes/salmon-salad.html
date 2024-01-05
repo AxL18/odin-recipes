@@ -1,41 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salmon salad</title>
-</head>
-<body>
-  <h1>Salmon salad</h1>
-<img src="https://www.twopeasandtheirpod.com/wp-content/uploads/2022/02/Polenta-Lasagna-4.jpg" alt="Polenta Lasagna" height="300" width="200">
-<h2>Description</h2>
-<p>Polenta Lasagna- this hearty lasagna is made with store-bought polenta, marinara sauce, vegetables, and of course lots of cheese! It is super easy to make, gluten-free, and delicious! The perfect meal for weeknights or easy entertaining!</p>
-<h3>Ingredients</h3>
-<ul>
-  <li>Olive oil</li>
-  <li>Vegetables</li>
-  <li>Garlic</li>
-  <li>Ricotta cheese</li>
-  <li>Egg</li>
-  <li>Herbs</li>
-  <li>Polenta</li>
-  <li>Marinara sauce</li>
-  <li>Mozzarella cheese</li>
-  <li>Parmesan cheese</li>
-</ul>
-<h3>Steps</h3>
-<ol>
-  <li>Before you get started, make sure you preheat the oven.</li>
-  <li>In a large skillet, heat the olive oil over medium-high heat. Add the onion, red pepper, and mushrooms. Cook until tender. Add the spinach and cook until wilted. Add the garlic and cook for 1 minute. Remove from the heat and set aside.</li>
-  <li>In a small bowl, combine the ricotta cheese, egg, and dried herbs. Stir until smooth.
-  </li>
-  <li>Use a sharp knife to thinly slice the polenta, about 1/4-inch thick. Make sure the slices aren’t too thick so they cook evenly and so you have enough rounds to cover the entire pan.</li>
-  <li>Grease a 2-quart rectangular baking dish (7 X 11-inch). Spread about ½ cup of the sauce on the bottom of the pan.</li>
-  <li>Place polenta rounds to cover the bottom of the pan. If you need to cut some of the rounds in half to make them fit evenly, that is fine.</li>
-  <li>Top with the vegetable mixture. Spoon the ricotta mixture over the vegetables and spread out evenly with a spatula. Top with 1 cup of the shredded mozzarella cheese. Pour half of the marinara sauce over the cheese. Add another layer of polenta rounds. Top with remaining sauce and the remaining mozzarella cheese, ending with the cheese. Sprinkle Parmesan cheese over the top.</li>
-  <li>Cover the baking dish with aluminum foil and bake for 25 minutes. Carefully remove the foil and continue baking for an additional 10 minutes, or until the cheese is melted and the dish is bubbly.</li>
-  <li>I like to turn the oven to broil and broil for 1 to 2 minutes so the cheese can get browned on top.</li>
-  <li>Remove from the oven and let cool for 10 minutes. Garnish with fresh basil and crushed red pepper flakes.</li>
-</ol>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Salmon salad</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    
+<nav class="nav"> <!-- this is for the side nav-->
+  <button type="button" class="nav-close">
+    <ion-icon name="close-outline" size="large"></ion-icon>
+  </button>
+  
+
+  <div class="nav-links-container">
+    <p class="nav-title">Recipes</p>
+    <a href="salmon-salad.html" class="nav-link">
+      <span class="nav-text">Salmon salad</span>
+      <img src="/images/salad-logo.svg" alt="salad-logo" class="salad-logo" width="38px">
+    </a>
+    <a href="cheese-burger.html" class="nav-link">
+      <span class="nav-text">Cheese burger</span>
+      <img src="/images/burger-logo.svg" alt="burger-logo" width="38px" class="burger-logo">
+    </a>
+    <a href="strawberry-cake.html" class="nav-link">
+      <span class="nav-text">Strawberry cake</span>
+      <img src="/images/cake-logo.svg" width="33px" alt="cake-logo" class="cake-logo">
+    </a>
+  </div>
+</nav>
+
+<main class="main">
+  <button type="button" onclick="toggleNav()">
+    <img src="/images/hamburger-menu.svg" alt="hamburger-menu" class="hamburger-menu" width="35px">
+  </button>
+
+  <section class="salmon-hero">
+      <a href=/index.html><img src="/images/logo.svg" width="60px" class="logo" alt="logo"></a>
+</section>
+
+<div class="ingredients-container">
+  <h2 class="ingredients-title">Ingredients:</h2>
+    <ul class="ingredients-list">
+      <li>¾ cup uncooked quinoa</li>
+      <li>44 oz salmon fillets</li>
+      <li>¼ cup sweet chilli sauce</li>
+      <li>2 tablespoons soy sauce</li>
+      <li>2 tablespoons water</li>
+      <li>2 garlic cloves minced</li>
+      <li>6 oz/170g snow peas roughly 2 cups</li>
+      <li>2 heads of broccoli roughly 4 cups, cut into bite-sized pieces</li>
+      <li>4 teaspoons olive oil</li>
+      <li>2 teaspoons soy sauce</li>
+    </ul>
+</div>
+
+<div class="steps-container">
+  <h2 class="steps-title">Steps:</h2>
+    <ol class="steps-list">
+      <li>¾ cup uncooked quinoa</li>
+      <li>44 oz salmon fillets</li>
+      <li>¼ cup sweet chilli sauce</li>
+      <li>2 tablespoons soy sauce</li>
+      <li>2 tablespoons water</li>
+      <li>2 garlic cloves minced</li>
+      <li>6 oz/170g snow peas roughly 2 cups</li>
+      <li>2 heads of broccoli roughly 4 cups, cut into bite-sized pieces</li>
+      <li>4 teaspoons olive oil</li>
+      <li>2 teaspoons soy sauce</li>
+    </ol>
+</div>
+
+<footer class="footer">
+  <div class="footer-text">Odin Recipes</div>
+    <img src="/images/logo-white.svg" alt="white-logo" class="footer-logo" width="25px">
+    <img src="/images/X.svg" alt="X logo" class="social-media">
+    <img src="/images/Instagram.svg" alt="Instagram-logo" class="social-media instagram">
+    <img src="/images/Tiktok.svg" alt="Tiktok" class="social-media tiktok">
+    <p class="author"> &#169; Axelle Ythier</p>
+  </footer>
+  
+</main>
+
+<script>
+  function toggleNav () {
+    document.body.classList.toggle("nav-open");
+  }
+
+    document.querySelector(".nav-close").addEventListener("click", () => {
+      toggleNav();
+    });
+</script>
+
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+  </body>
 </html>

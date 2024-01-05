@@ -253,7 +253,7 @@ a {
 body {
   margin: 0;
   padding: 0;
-  background-color:white;
+  background-color:whitesmoke;
   overflow-x: hidden;
 }
 
@@ -284,6 +284,47 @@ h2 {
 
 h1, h2 {
   margin-bottom: -15px; 
+}
+
+.salmon-hero {
+  background-image: url("/images/salmon.jpg");
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center center;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.ingredients-container {
+  background-color: #3f826d;
+  height: 500px;
+  width: 30%;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ingredients-title {
+  position: absolute;
+  top: 0;
+  text-decoration: underline;
+  color: whitesmoke
+}
+
+.ingredients-list {
+  top: 90px;
+  left: 20px;
+  font-family: mySecondFont;
+  font-size: 20px;
+  position: absolute;
+  line-height: 40px; /*add space between list items*/
+  color: #f5f5f5;
+  margin-right: 40px;
 }
 
 @font-face {
