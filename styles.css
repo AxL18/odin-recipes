@@ -1,3 +1,5 @@
+
+
 .nav-links-container {
   padding: 0;
   margin-top: 50px;
@@ -110,6 +112,10 @@
 
 a {
   text-decoration: none; /*removes the underline from the hyperlinks*/
+}
+
+.align-items {
+  align-items: center;
 }
 
 .overlay {
@@ -288,7 +294,7 @@ h1, h2 {
 
 .salmon-hero {
   background-image: url("/images/salmon.jpg");
-  min-height: 80vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 	background-position: center center;
@@ -299,69 +305,68 @@ h1, h2 {
 
 .ingredients-container {
   border-color:#3f826d;
-  border-style:dashed;
+  border-style: dashed;
   background-color: whitesmoke;
-  height: 550px;
-  width: 25%;
+  width: 30%;
+  flex-direction: column; /* Adjust to column layout */
   position: relative;
   display: flex;
-  justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
   border-radius: 10px;
   margin-left: 50px;
   margin-bottom: 20px;
-  float: left; /* this is to place the steps and ingredients containers side by side */
+   /* this is to place the steps and ingredients containers side by side */
 }
 
 .ingredients-title {
-  position: absolute;
-  top: 0;
   text-decoration: underline;
   color: black;
+  margin-bottom: 5px; 
 }
 
+
 .ingredients-list {
-  top: 90px;
-  left: 20px;
+  padding: 20px; /* Adjust padding as needed */
   font-family: mySecondFont;
   font-size: 1.2rem;
-  position: absolute;
-  line-height: 40px; /*add space between list items*/
+  line-height: 2.2; /* Adjust line height as needed */
   color: black;
-  margin-right: 40px;
 }
 
 .steps-container {
-  float: left; /* this is to place the steps and ingredients containers side by side */
-  height: 550px;
-  width: 55%;
+  width: 50%;
   position: relative;
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+  flex-direction: column; /* Adjust to column layout */
+  align-items: center;
   border-radius: 10px;
   margin-left: 20px;
   margin-bottom: 20px;
   background-color: #3f826d;
+  
+  
 }
 
 .steps-list {
-  top: 90px;
-  left: 20px;
+  padding: 20px; /* Adjust padding as needed */
   font-family: mySecondFont;
   font-size: 1.2rem;
-  position: absolute;
-  line-height: 40px; /*add space between list items*/
+  line-height: 2.2; /* Adjust line height as needed */
   color: whitesmoke;
-  margin-right: 40px;
 }
 
 .steps-title {
-  position: absolute;
-  top: 0;
   text-decoration: underline;
   color: whitesmoke;
+  margin-bottom: 5px; 
 }
+
+.recipe-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 .top-nav {
   height: 10px;
@@ -382,6 +387,10 @@ h1, h2 {
   margin-top: -10px;
 }
 
+.overlay-salmon .clock-container{
+  margin-top: -90px;
+}
+
 
 
 @font-face {
@@ -399,7 +408,7 @@ h1, h2 {
   src: url(font/GreatRebellion-3znKL.ttf);
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hero h1 {
     font-size: 45px;
     margin-top: 60px;
@@ -452,6 +461,7 @@ h1, h2 {
     position: absolute; /* Position the overlay-rectangle absolutely within the .salmon section */
     box-sizing: border-box;
   }
+
   .text {
     font-size: 35px;
     position: relative;
@@ -505,4 +515,17 @@ h1, h2 {
   .cake .overlay-rectangle .text {
    margin-left: -50px;
   }
+
+  .recipe-content {
+    flex-direction: column;
+  }
+
+  .ingredients-container,
+  .steps-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
+  
+
