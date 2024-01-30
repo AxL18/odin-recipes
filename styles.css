@@ -299,13 +299,14 @@ h1, h2 {
   background-size: cover;
 	background-position: center center;
   box-sizing: border-box;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   position: relative;
 }
 
 .ingredients-container {
   border-color:#3f826d;
   border-style: dashed;
+  border-width: 3px;
   background-color: whitesmoke;
   width: 30%;
   flex-direction: column; /* Adjust to column layout */
@@ -366,8 +367,6 @@ h1, h2 {
   justify-content: space-between;
 }
 
-
-
 .top-nav {
   height: 10px;
 }
@@ -383,8 +382,8 @@ h1, h2 {
 }
 
 .overlay-salmon .text {
-  font-size: 4rem;
-  margin-top: -10px;
+  font-size: 3.5rem;
+  margin-top: -20px;
 }
 
 .overlay-salmon .clock-container{
@@ -500,21 +499,22 @@ h1, h2 {
     width: 30px;
     margin-left: -270px;
   }
+  
   .text-burger {
     font-size: 35px;
     position: relative;
     top: -70px;
     letter-spacing: normal;
     white-space: nowrap;
-    margin-left: -40px;
     color: white;
     font-family: myThirdFont;
     margin-top: 40px;
     text-align: center;
   }
   .cake .overlay-rectangle .text {
-   margin-left: -50px;
+   align-items: center;
   }
+
 
   .recipe-content {
     flex-direction: column;
