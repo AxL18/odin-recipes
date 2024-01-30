@@ -499,7 +499,7 @@ h1, h2 {
     width: 30px;
     margin-left: -270px;
   }
-  
+
   .text-burger {
     font-size: 35px;
     position: relative;
@@ -527,6 +527,10 @@ h1, h2 {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .teext {
+    align-items: center;
   }
 }
   
