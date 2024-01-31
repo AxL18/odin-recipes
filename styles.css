@@ -327,7 +327,7 @@ h1, h2 {
 
 
 .ingredients-list {
-  padding: 20px; /* Adjust padding as needed */
+  padding: 5px; /* Adjust padding as needed */
   font-family: mySecondFont;
   font-size: 1.2rem;
   line-height: 2.2; /* Adjust line height as needed */
@@ -349,7 +349,7 @@ h1, h2 {
 }
 
 .steps-list {
-  padding: 20px; /* Adjust padding as needed */
+  padding: 5px; /* Adjust padding as needed */
   font-family: mySecondFont;
   font-size: 1.2rem;
   line-height: 2.2; /* Adjust line height as needed */
@@ -551,7 +551,14 @@ h1, h2 {
     display: none;
   }
 
+  .salmon-hero {
+    min-height: 70vh; /* Adjust as needed */
+    margin-bottom: 10px;
+  }
   
+  .steps-container {
+    margin-bottom: -50px;
+  }
 }
   
 
