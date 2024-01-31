@@ -407,6 +407,13 @@ h1, h2 {
   src: url(font/GreatRebellion-3znKL.ttf);
 }
 
+
+@media only screen and (min-width: 768px) {
+  .overlay-rectangle {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .hero h1 {
     font-size: 45px;
@@ -538,6 +545,10 @@ h1, h2 {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .overlay-salmon {
+    display: none;
   }
 
   
