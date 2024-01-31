@@ -500,7 +500,7 @@ h1, h2 {
     margin-left: -270px;
   }
 
-  .text-burger {
+  .text-burger, .text-strawberry, .text-salmon {
     font-size: 35px;
     position: relative;
     top: -70px;
@@ -511,8 +511,8 @@ h1, h2 {
     margin-top: 40px;
     text-align: center;
     display: flex; /* Use flexbox */
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
   }
   
   .overlay-rectangle .text {
@@ -524,7 +524,6 @@ h1, h2 {
     top: -70px;
     letter-spacing: normal;
     white-space: nowrap;
-    margin-left: -30px;
   }
 
 
