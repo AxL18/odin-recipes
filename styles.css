@@ -299,7 +299,7 @@ h1, h2 {
   background-size: cover;
 	background-position: center center;
   box-sizing: border-box;
-  margin-bottom: 70px;
+  margin-bottom: 5px;
   position: relative;
 }
 
@@ -327,7 +327,7 @@ h1, h2 {
 
 
 .ingredients-list {
-  padding: 5px; /* Adjust padding as needed */
+  padding: 10px; /* Adjust padding as needed */
   font-family: mySecondFont;
   font-size: 1.2rem;
   line-height: 2.2; /* Adjust line height as needed */
@@ -344,12 +344,10 @@ h1, h2 {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color: #3f826d;
-  
-  
 }
 
 .steps-list {
-  padding: 5px; /* Adjust padding as needed */
+  padding: 8px; /* Adjust padding as needed */
   font-family: mySecondFont;
   font-size: 1.2rem;
   line-height: 2.2; /* Adjust line height as needed */
@@ -390,6 +388,20 @@ h1, h2 {
   margin-top: -90px;
 }
 
+.salmon-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salmon-images img {
+  margin: 4px; 
+  transition: transform 0.25s ease;
+}
+
+.salmon-images img:hover {
+  -webkit-transform: scale(1.8);
+}
 
 
 @font-face {
@@ -423,7 +435,7 @@ h1, h2 {
     font-size: 30px;
   }
   .logo {
-    width: 40px;
+    width: 50px;
   }
   .sub-hero-section {
     font-size: 45px;
@@ -558,6 +570,14 @@ h1, h2 {
   
   .steps-container {
     margin-bottom: -50px;
+  }
+  
+  .ingredients-list, .steps-list{
+    font-size: 1rem;
+  }
+
+  .ingredients-title, .steps-title {
+    font-size: 1.5rem;
   }
 }
   
